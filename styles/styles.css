@@ -97,7 +97,7 @@ li {
   margin-bottom: 15px;
   padding: 0 10px 0 25px;
   list-style: none;
-  background-image: url(/src/icons/chek.png);
+  background-image: url(../src/icons/chek.png);
   background-repeat: no-repeat;
   background-size: 20px;
 }
