@@ -1,0 +1,168 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #909090;
+}
+
+li {
+  list-style: none;
+}
+
+.main-content {
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.header {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header_title {
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about_info {
+  font-size: 18px;
+}
+
+.about_photo-container {
+  width: 250px;
+  margin: 0 50px;
+}
+
+.about_photo-image {
+  border-radius: 50%;
+  width: 250px;
+  margin: 0;
+}
+
+.about_info-title {
+  font-size: 1.1em;
+}
+
+.about_info-content {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.about_info-list {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.bg {
+  background-color: rgb(238, 236, 253);
+}
+
+.goals-list {
+  padding-left: 50px;
+  margin: 0;
+}
+
+.goals-list_item {
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 0 10px 0 25px;
+  list-style: none;
+  background-image: url(/src/icons/chek.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.time_rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.time_day-list {
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  font-size: inherit;
+}
+
+.time_day-list:last-child {
+  margin-right: 0;
+}
+
+.courses_container {
+  display: flex;
+  justify-content: center;
+}
+
+.courses_table {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courses_table td {
+  padding: 5px 20px;
+}
+
+.courses_table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.courses_table-header {
+  border-bottom: 2px solid #000;
+}
+
+.footer {
+  margin-bottom: 50px;
+  padding: 0 50px;
+}
+
+.footer_social-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_social-link-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}

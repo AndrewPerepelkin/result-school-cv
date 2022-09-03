@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/mediaquery-styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Карточка студента</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header card bg">
+      <h1 class="header_title">Карточка студента</h1>
+    </header>
+    <article class="main-content">
+      <section class="about">
+        <figure class="about_photo-container"><img class="about_photo-image" src="/src/img/av.jpg" alt="Andrew`s avatar"></figure>
+        <div class="about_info">
+          <div class="about_info-item">
+            <div class="about_info-title">Имя, фамилия:</div>
+            <div class="about_info-content">Андрей Перепелкин</div>
+          </div>
+          <div class="about_info-item">
+            <div class="about_info-title">Возраст:</div>
+            <div class="about_info-content">36 лет</div>
+          </div>
+          <div class="about_info-item">
+            <div class="about_info-title">Опыт в программировнии:</div>
+            <div class="about_info-content">2 года</div>
+          </div>
+          <div class="about_info-item">
+            <div class="about_info-title">О себе:</div>
+            <div class="about_info-content">
+              <ul class="about_info-list">
+                <li class="about_info-list-item">Люблю учиться</li>
+                <li class="about_info-list-item">Люблю программировние</li>
+                <li class="about_info-list-item">Люблю учиться программировнию =)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="goals card bg">
+        <h2 class="section-title">Мои цели на обучение</h2>
+        <ul class="goals-list">
+          <li class="goals-list_item">Стать уверенным разработчиком</li>
+          <li class="goals-list_item">Изучить совремнные Frontend технологии</li>
+          <li class="goals-list_item">Устроиться на интересную работу</li>
+          <li class="goals-list_item">Весело провести время в сообществе единомышленников</li>
+        </ul>
+      </section>
+      <section class="time card">
+        <h2 class="section-title">Сколько времни могу учиться</h2>        
+          <div class="time_rows">
+            <ul class="time_day-list">
+              <li class="time_day-list-item">Понедельник</li>
+              <li class="time_day-list-item">Вторник</li>
+              <li class="time_day-list-item">Среда</li>
+              <li class="time_day-list-item">Четверг</li>
+              <li class="time_day-list-item">Пятница</li>
+              <li class="time_day-list-item">Суббота</li>
+              <li class="time_day-list-item">Воскресенье</li>
+            </ul>          
+            <ul class="time_day-list">
+              <li class="time_day-list-item">2-3 часа</li>
+              <li class="time_day-list-item">2-3 часа</li>
+              <li class="time_day-list-item">2-3 часа</li>
+              <li class="time_day-list-item">2-3 часа</li>
+              <li class="time_day-list-item">2-3 часа</li>
+              <li class="time_day-list-item">3-4 часа</li>
+              <li class="time_day-list-item">3-4 часа</li>
+            </ul>
+          </div>
+      </section>
+      <section class="courses card bg">
+        <h2 class="section-title">Пройденные курсы</h2>
+          <div class="courses_container">
+            <table class="courses_table">
+              <thead>
+                <tr>
+                  <th class="courses_table-header">Название</th>
+                  <th class="courses_table-header">Автор</th>
+                  <th class="courses_table-header">Оценка курса</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">HTML</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">CSS</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=Bluxbh9CaQ0">JavaScript</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=aQkgUUmUJy4&list=PLqKQF2ojwm3l4oPjsB9chrJmlhZ-zOzWT">Сложный JavaScript</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.udemy.com/course/react-2020-complete-guide/">React JS</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=nyIpDs2DJ_c">TypeScript</a></td>
+                  <td>Владилен Минин</td>
+                  <td>10/10</a></td>
+                </tr>
+              </tbody>              
+            </table>
+          </div>
+      </section>
+    </article>
+    <footer class="footer card">
+      <h2 class="section-title">Контакты</h2>
+      <ul class="footer_social-list">
+        <li class="footer_social-list-item">
+          <a class="footer_social-link" href="https://t.me/AndrewVsP" target="_blank">
+            <img class="footer_social-link-logo" src="/src/icons/Telegram_logo.svg" alt="telegram-logo">
+            <div class="footer_social-link-title">Telegram</div>            
+          </a>
+        </li>
+        <li class="footer_social-list-item">
+          <a class="footer_social-link" href="https://www.instagram.com/andrewvsp/" target="_blank">
+            <img class="footer_social-link-logo" src="/src/icons/Instagram_icon.png" alt="instagram-logo">
+            <div class="footer_social-link-title">Instagram</div>            
+          </a>
+        </li>
+        <li class="footer_social-list-item">
+          <a class="footer_social-link" href="https://vk.com/id3821286" target="_blank">
+            <img class="footer_social-link-logo" src="/src/icons/VK.com-logo.svg" alt="VK-logo">
+            <div class="footer_social-link-title">ВКонтакте</div></a>
+        </li>
+        <li class="footer_social-list-item">
+          <a class="footer_social-link" href="https://github.com/AndrewPerepelkin" target="_blank">
+            <img class="footer_social-link-logo" src="/src/icons/github-logo.svg" alt="GitHub-logo">
+            <div class="footer_social-link-title">GitHub</div></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
